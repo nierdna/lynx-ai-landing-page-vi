@@ -132,6 +132,38 @@
   }
   .nav-cta:hover { background: var(--orange-deep); }
 
+  /* ─── LOCALE SWITCH ─── */
+  .locale-switch {
+    display: inline-flex; align-items: center; gap: 2px;
+    padding: 3px; border-radius: 999px;
+    background: rgba(42,24,16,0.05);
+  }
+  .locale-btn {
+    border: 0; cursor: pointer; background: transparent;
+    font-family: inherit; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.04em; color: var(--ink-3);
+    padding: 5px 9px; border-radius: 999px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .locale-btn:hover { color: var(--ink); }
+  .locale-btn.active { background: var(--white); color: var(--ink); box-shadow: var(--shadow-sm); }
+
+  /* ─── IN-HOUSE PROJECT BADGE ─── */
+  .project-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    align-self: flex-start; margin-bottom: 10px;
+    padding: 4px 10px; border-radius: 999px;
+    background: rgba(231,138,83,0.14); color: var(--orange-deep);
+    font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .project-card.featured { box-shadow: var(--shadow-md); }
+  .project-link {
+    display: inline-block; margin-top: 12px;
+    font-size: 13px; font-weight: 700; color: var(--orange-deep);
+  }
+  .project-link:hover { text-decoration: underline; }
+
   /* ─── HERO ─── */
   #hero {
     padding: 140px 0 80px;

@@ -1,5 +1,21 @@
 // Server Component — SSR + SEO
+import { useTranslations } from "next-intl";
+
+type HeroRow = { label: string; sub: string; val: string };
+type HeroStat = { num: string; label: string };
+
+const ROW_STYLES = [
+  { icon: "🤖", bg: "rgba(231,138,83,0.14)", color: "var(--orange-deep)", valColor: undefined },
+  { icon: "⚡", bg: "rgba(67,193,107,0.14)", color: "#2c8c4e", valColor: "#2c8c4e" },
+  { icon: "☁️", bg: "rgba(90,63,46,0.10)", color: "var(--ink)", valColor: "var(--ink)" },
+  { icon: "📊", bg: "rgba(231,138,83,0.10)", color: "var(--orange-deep)", valColor: undefined },
+] as const;
+
 export function HeroSection() {
+  const t = useTranslations("hero");
+  const rows = t.raw("rows") as HeroRow[];
+  const stats = t.raw("stats") as HeroStat[];
+
   return (
     <section id="hero">
       <div className="hero-blob blob-1"></div>
@@ -8,26 +24,26 @@ export function HeroSection() {
         <div className="hero-grid">
           <div className="hero-left fade-up">
             <div className="hero-eyebrow">
-              <span className="pill">MỚI</span>
-              <span>Đối tác chuyển đổi số · AI-first 2026</span>
+              <span className="pill">{t("badgeNew")}</span>
+              <span>{t("eyebrow")}</span>
             </div>
             <h1 className="hero-title">
-              Giải pháp <span className="accent">Phần mềm &amp; AI</span> cho doanh nghiệp Việt.
+              {t("titleBefore")}
+              <span className="accent">{t("titleAccent")}</span>
+              {t("titleAfter")}
             </h1>
-            <p className="hero-desc">
-              LYNX AI SOLUTION đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số — từ tư vấn chiến lược, thiết kế sản phẩm đến triển khai AI thực tế, đo được bằng kết quả kinh doanh.
-            </p>
+            <p className="hero-desc">{t("desc")}</p>
             <div className="hero-actions">
-              <a href="#contact" className="btn btn-primary">Bắt đầu dự án →</a>
-              <a href="#projects" className="btn btn-ghost">Xem dự án tiêu biểu</a>
+              <a href="#contact" className="btn btn-primary">{t("ctaPrimary")}</a>
+              <a href="#projects" className="btn btn-ghost">{t("ctaSecondary")}</a>
             </div>
             <div className="hero-trust">
               <div className="avatar-stack">
                 <div>NL</div><div>HM</div><div>TQ</div><div>+</div>
               </div>
               <div>
-                <div style={{ color: "var(--ink)", fontWeight: 600 }}>Tin tưởng bởi 30+ doanh nghiệp</div>
-                <div>Tài chính · Y tế · Bán lẻ · Logistics</div>
+                <div style={{ color: "var(--ink)", fontWeight: 600 }}>{t("trustTitle")}</div>
+                <div>{t("trustSub")}</div>
               </div>
             </div>
           </div>
@@ -36,9 +52,9 @@ export function HeroSection() {
             <div className="hero-visual">
               {/* Top-right KPI card */}
               <div className="ios-card ios-card-sm top">
-                <div className="stat-mini">DOANH THU AI</div>
-                <div className="stat-big">2.4 tỷ</div>
-                <div className="stat-trend">↑ 38% vs Q3</div>
+                <div className="stat-mini">{t("kpiLabel")}</div>
+                <div className="stat-big">{t("kpiValue")}</div>
+                <div className="stat-trend">{t("kpiTrend")}</div>
                 <div className="spark">
                   <svg viewBox="0 0 220 32" preserveAspectRatio="none">
                     <path d="M0,28 L20,22 L40,24 L60,18 L80,20 L100,12 L120,14 L140,8 L160,10 L180,5 L200,7 L220,2" fill="none" stroke="#e78a53" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -50,59 +66,38 @@ export function HeroSection() {
               {/* Main dashboard card */}
               <div className="ios-card ios-card-main">
                 <div className="head">
-                  <div className="title">LYNX · Dashboard</div>
-                  <span className="badge-dot">Live</span>
+                  <div className="title">{t("dashTitle")}</div>
+                  <span className="badge-dot">{t("dashLive")}</span>
                 </div>
-                <div className="ios-row">
-                  <div className="left">
-                    <div className="ico" style={{ background: "rgba(231,138,83,0.14)", color: "var(--orange-deep)" }}>🤖</div>
-                    <div>
-                      <div className="lbl">AI Solutions</div>
-                      <div className="sub">12 dự án đang triển khai</div>
+                {rows.map((row, i) => {
+                  const style = ROW_STYLES[i] ?? ROW_STYLES[0];
+                  return (
+                    <div className="ios-row" key={row.label}>
+                      <div className="left">
+                        <div className="ico" style={{ background: style.bg, color: style.color }}>
+                          {style.icon}
+                        </div>
+                        <div>
+                          <div className="lbl">{row.label}</div>
+                          <div className="sub">{row.sub}</div>
+                        </div>
+                      </div>
+                      <div className="val" style={style.valColor ? { color: style.valColor } : undefined}>
+                        {row.val}
+                      </div>
                     </div>
-                  </div>
-                  <div className="val">↗ 96%</div>
-                </div>
-                <div className="ios-row">
-                  <div className="left">
-                    <div className="ico" style={{ background: "rgba(67,193,107,0.14)", color: "#2c8c4e" }}>⚡</div>
-                    <div>
-                      <div className="lbl">Phần mềm doanh nghiệp</div>
-                      <div className="sub">ERP · CRM · Workflow</div>
-                    </div>
-                  </div>
-                  <div className="val" style={{ color: "#2c8c4e" }}>+24</div>
-                </div>
-                <div className="ios-row">
-                  <div className="left">
-                    <div className="ico" style={{ background: "rgba(90,63,46,0.10)", color: "var(--ink)" }}>☁️</div>
-                    <div>
-                      <div className="lbl">Cloud &amp; DevOps</div>
-                      <div className="sub">Multi-cloud · CI/CD</div>
-                    </div>
-                  </div>
-                  <div className="val" style={{ color: "var(--ink)" }}>99.9%</div>
-                </div>
-                <div className="ios-row">
-                  <div className="left">
-                    <div className="ico" style={{ background: "rgba(231,138,83,0.10)", color: "var(--orange-deep)" }}>📊</div>
-                    <div>
-                      <div className="lbl">Data &amp; Analytics</div>
-                      <div className="sub">Pipeline · BI · Insight</div>
-                    </div>
-                  </div>
-                  <div className="val">8 dự án</div>
-                </div>
+                  );
+                })}
               </div>
 
               {/* Bottom-left status card */}
               <div className="ios-card ios-card-sm bot">
-                <div className="stat-mini">DỰ ÁN ĐANG CHẠY</div>
+                <div className="stat-mini">{t("runningLabel")}</div>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px", marginTop: "8px" }}>
                   <div style={{ width: "48px", height: "48px", borderRadius: "14px", background: "linear-gradient(135deg, var(--orange), var(--orange-deep))", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontSize: "22px" }}>⚙</div>
                   <div>
-                    <div style={{ fontSize: "18px", fontWeight: 800 }}>24</div>
-                    <div style={{ fontSize: "11px", color: "var(--ink-3)", fontWeight: 500 }}>Trên 8 ngành</div>
+                    <div style={{ fontSize: "18px", fontWeight: 800 }}>{t("runningCount")}</div>
+                    <div style={{ fontSize: "11px", color: "var(--ink-3)", fontWeight: 500 }}>{t("runningSub")}</div>
                   </div>
                 </div>
                 <div style={{ display: "flex", gap: "4px", marginTop: "10px" }}>
@@ -116,22 +111,12 @@ export function HeroSection() {
         </div>
 
         <div className="hero-stats fade-up" style={{ transitionDelay: "0.2s" }}>
-          <div>
-            <div className="hs-num">30<span className="plus">+</span></div>
-            <div className="hs-lbl">Dự án hoàn thành</div>
-          </div>
-          <div>
-            <div className="hs-num">25<span className="plus">+</span></div>
-            <div className="hs-lbl">Khách hàng hài lòng</div>
-          </div>
-          <div>
-            <div className="hs-num">40<span className="plus">+</span></div>
-            <div className="hs-lbl">Chuyên gia công nghệ</div>
-          </div>
-          <div>
-            <div className="hs-num">5<span className="plus">+</span></div>
-            <div className="hs-lbl">Năm kinh nghiệm</div>
-          </div>
+          {stats.map((stat) => (
+            <div key={stat.label}>
+              <div className="hs-num">{stat.num}<span className="plus">+</span></div>
+              <div className="hs-lbl">{stat.label}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -127,17 +127,41 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  // Phạm vi kinh doanh cho crawler và bộ phận thẩm định của nền tảng:
+  // dịch vụ phần mềm/AI, kèm thương hiệu bán lẻ TikTok Shop do công ty tự vận hành.
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Lynx Solution",
+      name: "Lynx AI Solution",
+      legalName: "LYNX AI SOLUTION JSC",
       url: "https://lynxsolution.vn",
       logo: "https://lynxsolution.vn/thumbnail1.webp",
+      taxID: "0111115574",
       sameAs: ["https://zalo.me/lynxsolution"],
+      description:
+        "Vietnamese software & AI company delivering custom software, AI/ML, Cloud & DevOps, data analytics and e-commerce/retail analytics. Owns and operates its own TikTok Shop retail brand, Chom Chom Studio.",
+      knowsAbout: [
+        "Custom software development",
+        "AI & machine learning",
+        "Cloud & DevOps",
+        "Data engineering & analytics",
+        "E-commerce analytics",
+        "TikTok Shop operations",
+        "Retail business intelligence",
+      ],
+      brand: {
+        "@type": "Brand",
+        name: "Chom Chom Studio",
+        url: "https://chomchom.com.vn",
+        description:
+          "Women's fashion retail brand owned and operated by Lynx AI Solution on TikTok Shop.",
+      },
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer support",
+        email: "info@lynxsolution.vn",
+        telephone: "+84929862699",
         availableLanguage: ["Vietnamese", "English"],
       },
     },

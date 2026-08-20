@@ -1,122 +1,460 @@
 {
   "meta": {
-    "title": "AI operations, customer care, automated sales & marketing",
-    "description": "AI platform for Vietnamese businesses: revenue & inventory reports, 24/7 CS, Zalo sales automation, content & short-form video — with demo videos per module."
+    "title": "Lynx AI Solution — Software, AI & Retail Analytics for Vietnamese businesses",
+    "description": "A Vietnamese technology company delivering custom software, AI, Cloud, Data Analytics and e-commerce analytics (TikTok Shop, Shopee) for businesses in Vietnam."
   },
   "nav": {
-    "home": "Home",
-    "about": "Overview",
+    "overview": "About",
     "services": "Services",
-    "competencies": "Competencies",
+    "competencies": "Capabilities",
     "projects": "Projects",
     "team": "Team",
-    "contact": "Contact Us"
+    "contact": "Contact"
   },
   "hero": {
-    "kicker": "AI for ops, sales & marketing",
-    "headline": "An AI suite to run, serve and grow your business",
-    "description": "From revenue and stock alerts to 24/7 inbox, Zalo sales and viral content: one integrated AI stack with a demo video for each pillar.",
-    "cta": "Book a free consultation",
-    "videoAriaLabel": "AI solution overview video",
-    "watchVideo": "Watch video",
-    "closeVideo": "Close video",
-    "imageAlt": "AI-powered workflows in a modern business"
-  },
-  "about": {
-    "title": "About us",
-    "body1": "We build focused AI modules for retail and services: real-time metrics, instant customer responses outside office hours, and automation for sales and marketing instead of manual follow-up.",
-    "body2": "Each module has a clear rollout path with Zalo, Telegram, TikTok and Facebook integrations so you see value early and scale step by step.",
-    "teamTitle": "Leadership Team",
-    "teamDescription": "Four core members leading strategy, technology, finance and growth.",
-    "members": {
-      "ceo": {
-        "role": "CEO",
-        "name": "Ta Duy Dat",
-        "bio": "Leads company strategy and overall business direction."
+    "badgeNew": "NEW",
+    "eyebrow": "Digital transformation partner · AI-first 2026",
+    "titleBefore": "",
+    "titleAccent": "Software & AI",
+    "titleAfter": " solutions for Vietnamese businesses.",
+    "desc": "LYNX AI SOLUTION walks with companies through digital transformation — from strategy consulting and product design to AI that ships, measured by business results.",
+    "ctaPrimary": "Start a project →",
+    "ctaSecondary": "See selected projects",
+    "trustTitle": "Trusted by 30+ companies",
+    "trustSub": "Finance · Healthcare · Retail · Logistics",
+    "kpiLabel": "AI REVENUE",
+    "kpiValue": "2.4B ₫",
+    "kpiTrend": "↑ 38% vs Q3",
+    "dashTitle": "LYNX · Dashboard",
+    "dashLive": "Live",
+    "rows": [
+      {
+        "label": "AI Solutions",
+        "sub": "12 projects in delivery",
+        "val": "↗ 96%"
       },
-      "cco": {
-        "role": "CCO",
-        "name": "Nguyen Canh Nguyen",
-        "bio": "Develop strategies, manage sales operations, and expand the market to increase revenue."
+      {
+        "label": "Enterprise software",
+        "sub": "ERP · CRM · Workflow",
+        "val": "+24"
       },
-      "cto": {
-        "role": "CTO",
-        "name": "Le Van Mong",
-        "bio": "Owns product architecture, AI systems and technology platform."
+      {
+        "label": "Cloud & DevOps",
+        "sub": "Multi-cloud · CI/CD",
+        "val": "99.9%"
       },
-      "cmo": {
-        "role": "CMO",
-        "name": "Phan Ha Duy",
-        "bio": "Leads marketing, brand and growth strategy execution."
+      {
+        "label": "Data & Analytics",
+        "sub": "Pipeline · BI · Insight",
+        "val": "8 projects"
       }
-    }
+    ],
+    "runningLabel": "PROJECTS RUNNING",
+    "runningCount": "24",
+    "runningSub": "Across 8 industries",
+    "stats": [
+      {
+        "num": "30",
+        "label": "Projects delivered"
+      },
+      {
+        "num": "25",
+        "label": "Happy clients"
+      },
+      {
+        "num": "40",
+        "label": "Technology specialists"
+      },
+      {
+        "num": "5",
+        "label": "Years in business"
+      }
+    ]
+  },
+  "overview": {
+    "eyebrow": "About the company",
+    "title": "We are LYNX AI SOLUTION.",
+    "lede": "LYNX AI SOLUTION JSC is a technology company providing software and artificial-intelligence solutions to businesses in Vietnam. We believe AI should be a practical tool — solving a specific problem, measurable by ROI, not a slogan.",
+    "ledeRetail": "Beyond client work, the company also directly owns and operates its own retail brand, Chom Chom Studio, on TikTok Shop — where we run our own e-commerce analytics products before packaging them for clients.",
+    "visionLabel": "Vision",
+    "visionBody": "To become the leading AI partner for Vietnamese businesses, bringing advanced technology within reach of organizations of every size.",
+    "missionLabel": "Mission",
+    "missionBody": "To help businesses run more efficiently and build competitive advantage through custom software and AI that works in practice.",
+    "valuesTitle": "Core values",
+    "values": [
+      "Customer at the center",
+      "Integrity & transparency",
+      "Continuous innovation",
+      "Committed quality",
+      "Durable partnership"
+    ],
+    "infoNameLabel": "Legal entity",
+    "infoNameValue": "LYNX AI SOLUTION JSC",
+    "infoTaxLabel": "Tax code",
+    "infoTaxValue": "0111115574",
+    "infoHqLabel": "Headquarters",
+    "infoHqLine1": "No. 26, Lane 364 Minh Khai Street,",
+    "infoHqLine2": "Vinh Tuy Ward, Hai Ba Trung, Hanoi",
+    "infoSizeLabel": "Size",
+    "infoSizeValue": "40+ technology specialists",
+    "infoBrandLabel": "In-house retail brand",
+    "infoBrandValue": "Chom Chom Studio · TikTok Shop",
+    "infoTaxOfficeLabel": "Tax authority",
+    "infoTaxOfficeValue": "Hanoi Tax Office No. 3"
   },
   "services": {
-    "kicker": "Services",
-    "headline": "Four AI pillars for operations & growth",
-    "description": "Each service includes a demo video showing the actual workflow (placeholder video shared across demos).",
+    "eyebrow": "Services & Products",
+    "title": "End-to-end solutions for business.",
+    "lede": "Five core service lines — from strategy consulting and product design through delivery and long-term operations.",
+    "link": "See all services →",
     "items": {
-      "report": {
-        "title": "AI Management & Reporting",
-        "bullets": [
-          "Income/expense and revenue reports by day/month",
-          "Inventory tracking and low-stock alerts",
-          "Real-time reports via Zalo / Telegram"
-        ],
-        "videoLabel": "Demo: AI Management & Reporting"
+      "software": {
+        "title": "Custom software development",
+        "desc": "Web applications, ERP/CRM systems, internal tools — designed and built around your own problem, integrated with the systems you already run.",
+        "tags": [
+          "React · Next.js",
+          "Node.js · .NET",
+          "PostgreSQL"
+        ]
       },
-      "sales": {
-        "title": "AI Automated Sales",
-        "bullets": [
-          "Automated Zalo friend adds from target customer lists",
-          "Warranty intake & management",
-          "Automated follow-up and closing"
-        ],
-        "videoLabel": "Demo: AI Automated Sales"
+      "ai": {
+        "title": "AI & Machine Learning",
+        "desc": "AI that ships: chatbots, OCR, computer vision, recommendation, forecasting — LLMs embedded into business workflows to raise automation.",
+        "tags": [
+          "LLM Integration",
+          "Computer Vision",
+          "RAG"
+        ]
       },
-      "customerCare": {
-        "title": "AI Customer Care",
-        "bullets": [
-          "Automated inbox replies 24/7",
-          "Product consultation in a human-like tone",
-          "Automated follow-up and closing"
-        ],
-        "videoLabel": "Demo: AI Customer Care"
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Cloud architecture consulting, infrastructure automation, CI/CD pipelines, monitoring and security audits for production systems.",
+        "tags": [
+          "AWS · GCP · Azure",
+          "Kubernetes",
+          "Terraform"
+        ]
       },
-      "content": {
-        "title": "AI Content & Marketing",
-        "bullets": [
-          "Market scanning and competitor analysis",
-          "Find viral posts in your industry",
-          "Sales-focused copywriting",
-          "Auto-generated TikTok / Facebook Reels videos"
-        ],
-        "videoLabel": "Demo: AI Content & Marketing"
+      "data": {
+        "title": "Data Engineering & Analytics",
+        "desc": "Data pipelines, data warehouses and BI dashboards. Turning scattered data into real-time reporting that supports decisions.",
+        "tags": [
+          "Airflow · Spark",
+          "Snowflake",
+          "Power BI · Looker"
+        ]
+      },
+      "ecommerce": {
+        "title": "E-commerce & Retail Analytics",
+        "desc": "Running and optimizing e-commerce sales channels (TikTok Shop, Shopee) with data: real-time dashboards for revenue, inventory and ad performance, automated daily reporting, and break-even analysis per SKU.",
+        "tags": [
+          "TikTok Business API",
+          "GMV Max",
+          "BI Dashboard"
+        ]
       }
     }
   },
-  "why": {
-    "title": "Why choose us",
-    "points": [
-      "One platform, many modules: reporting, CS, sales and marketing connected instead of fragmented tools.",
-      "Built for Vietnam channels: Zalo, Telegram, TikTok and Reels in the default rollout.",
-      "See before you buy: demo videos per module so you know features and automation depth.",
-      "After go-live: we tune prompts, playbooks and reports to your real operations."
+  "competencies": {
+    "eyebrow": "Core capabilities",
+    "title": "Technology & Architecture.",
+    "lede": "Fluent in a modern stack — the right tool for the right problem, not whatever is trending.",
+    "tabs": {
+      "arch": "Architecture",
+      "design": "Design",
+      "tech": "Technology",
+      "infra": "Infrastructure",
+      "ai": "Data & AI"
+    }
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "From idea to product.",
+    "lede": "A standardized Agile process, transparent at every stage — protecting both quality and schedule.",
+    "steps": [
+      {
+        "title": "Requirements",
+        "desc": "Analyze needs, define scope and business goals"
+      },
+      {
+        "title": "Design",
+        "desc": "Wireframes, UI/UX, system architecture and planning"
+      },
+      {
+        "title": "Development",
+        "desc": "Two-week sprints, daily standups, continuous code review"
+      },
+      {
+        "title": "Testing",
+        "desc": "Unit · Integration · UAT · Performance · Security"
+      },
+      {
+        "title": "Deployment",
+        "desc": "CI/CD pipeline, monitoring, go-live support and maintenance"
+      }
+    ],
+    "qa": [
+      "Automated code review",
+      "Unit & Integration Testing",
+      "Security Scanning",
+      "Performance Monitoring"
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected projects",
+    "title": "What we have built.",
+    "lede": "A few real projects showing the team’s end-to-end delivery — including the product we operate for ourselves.",
+    "link": "Request the full portfolio →",
+    "inhouseBadge": "Lynx in-house product",
+    "items": {
+      "chomchom": {
+        "title": "Chom Chom Studio — internal TikTok Shop dashboard",
+        "desc": "LYNX AI SOLUTION owns and operates the women’s fashion brand Chom Chom Studio (chomchom.com.vn), selling on TikTok Shop under the company’s own advertiser account. We built the internal reporting dashboard that reads data through the TikTok Business API: daily GMV Max revenue and ad spend, ROI per campaign and per video, inventory by SKU, ad wallet balance — and manages that same account’s GMV Max campaigns.",
+        "tags": [
+          "TikTok Business API",
+          "GMV Max",
+          "BI Dashboard",
+          "E-commerce"
+        ],
+        "outcome": "Covers only the company’s own advertiser account · internal use, no data shared with third parties",
+        "linkLabel": "chomchom.com.vn →",
+        "linkHref": "https://chomchom.com.vn",
+        "imageAlt": "Chom Chom Studio — the TikTok Shop retail brand owned by LYNX AI SOLUTION"
+      },
+      "erp": {
+        "title": "Enterprise management software",
+        "desc": "An ERP platform tailored to each company — people, finance, warehousing and internal workflows on one unified system.",
+        "tags": [
+          "ERP",
+          "Microservices",
+          "Cloud"
+        ],
+        "outcome": "Standardized processes · clearer operations",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Enterprise ERP management software"
+      },
+      "crm": {
+        "title": "Customer management system (CRM)",
+        "desc": "A 360° CRM centralizing multi-channel customer data, automating segmentation, tracking the sales pipeline and measuring campaign performance in real time.",
+        "tags": [
+          "CRM",
+          "Customer 360",
+          "Analytics"
+        ],
+        "outcome": "Higher conversion · better retention",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "CRM customer management system"
+      },
+      "zalo": {
+        "title": "Zalo Sales Data Management",
+        "desc": "A platform that syncs and manages all Zalo OA conversation data — sales assignment, automated follow-up reminders, order tracking and per-agent KPI measurement.",
+        "tags": [
+          "Zalo OA API",
+          "Sales Pipeline",
+          "Realtime"
+        ],
+        "outcome": "No lost leads · better close rate",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Zalo Sales data management"
+      },
+      "assistant": {
+        "title": "AI customer-care assistant",
+        "desc": "An AI assistant for customer care, trained on each company’s own domain and tone of voice — deployed across Web, Zalo and Facebook.",
+        "tags": [
+          "LLM · RAG",
+          "LangChain",
+          "Multi-channel"
+        ],
+        "outcome": "Handles most incoming questions · lowers support cost",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "AI customer-care assistant"
+      }
+    }
+  },
+  "clients": {
+    "eyebrow": "Clients & Partners",
+    "title": "Trusted by leading companies.",
+    "industriesTitle": "Industries we serve",
+    "industries": [
+      "Finance · Banking",
+      "Healthcare",
+      "Retail · Commerce",
+      "Logistics",
+      "Education",
+      "Manufacturing"
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "title": "People make the difference.",
+    "lede": "Experienced engineers who care about technology and measure themselves by client outcomes.",
+    "stats": [
+      {
+        "num": "40",
+        "plus": true,
+        "label": "Team members"
+      },
+      {
+        "num": "6",
+        "plus": true,
+        "label": "Avg. years of experience"
+      },
+      {
+        "num": "15",
+        "plus": true,
+        "label": "International certificates"
+      },
+      {
+        "num": "3",
+        "plus": false,
+        "label": "Countries we work in"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Software Engineers",
+        "desc": "Frontend · Backend · Fullstack"
+      },
+      {
+        "title": "AI / ML Engineers",
+        "desc": "ML · Deep Learning · LLM"
+      },
+      {
+        "title": "UI/UX Designers",
+        "desc": "Product Design · Research"
+      },
+      {
+        "title": "DevOps · Cloud",
+        "desc": "Infrastructure · CI/CD · Security"
+      },
+      {
+        "title": "Data Engineers",
+        "desc": "Pipeline · Analytics · BI"
+      },
+      {
+        "title": "QA Engineers",
+        "desc": "Manual · Automation · Performance"
+      }
+    ],
+    "leaderTitle": "Leadership team",
+    "leaderLede": "Four core members covering strategy, technology, finance and growth.",
+    "leaders": [
+      {
+        "role": "CEO",
+        "name": "Ta Duy Dat",
+        "desc": "Sets overall strategy and drives company development."
+      },
+      {
+        "role": "CCO",
+        "name": "Nguyen Canh Nguyen",
+        "desc": "Plans commercial strategy, runs sales operations and market development to grow revenue."
+      },
+      {
+        "role": "CTO",
+        "name": "Le Van Mong",
+        "desc": "Owns product architecture, AI and technology infrastructure."
+      },
+      {
+        "role": "CMO",
+        "name": "Phan Ha Duy",
+        "desc": "Leads marketing, brand and growth strategy."
+      }
+    ]
+  },
+  "advantages": {
+    "eyebrow": "Why us",
+    "title": "Why choose LYNX AI?",
+    "items": [
+      {
+        "title": "AI-first & pragmatic",
+        "desc": "Not every problem needs AI. We say so plainly — the right solution for the actual need, measured by ROI."
+      },
+      {
+        "title": "Senior-heavy team",
+        "desc": "70% of the team is Senior+ with 5+ years of experience. You work with the people who decide, not through layers."
+      },
+      {
+        "title": "Compliance & security",
+        "desc": "Designed to ISO 27001 standards, GDPR-ready. Fit for finance, healthcare and any business with strict compliance needs."
+      },
+      {
+        "title": "Long-term partner",
+        "desc": "85% of clients sign again after the first project. We do not build and vanish — we stay while the product grows."
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certifications",
+    "title": "International standards.",
+    "items": [
+      {
+        "title": "ISO/IEC 27001",
+        "desc": "Information Security · 2024"
+      },
+      {
+        "title": "AWS Partner",
+        "desc": "Select Tier · 2025"
+      },
+      {
+        "title": "CMMI Level 3",
+        "desc": "Process Maturity · 2024"
+      }
     ]
   },
   "cta": {
-    "title": "Ready to let AI handle ops and sales?",
-    "description": "Message us on Zalo for the right modules and more demos in about 30 minutes.",
-    "button": "Contact us"
+    "title": "Ready to start a project?",
+    "desc": "Book a free 30-minute consultation — we will help you frame the problem and sketch a solution that fits.",
+    "primary": "Book a free consultation →",
+    "secondary": "Email us now"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch with LYNX AI.",
+    "lede": "A project to deliver? A question about AI for your business? Leave your details — we reply within 24 hours.",
+    "websiteLabel": "Website",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "hqLabel": "Headquarters",
+    "hqLine1": "No. 26, Lane 364 Minh Khai Street,",
+    "hqLine2": "Vinh Tuy Ward, Hai Ba Trung, Hanoi",
+    "nameLabel": "Full name *",
+    "namePlaceholder": "Jane Doe",
+    "emailFieldLabel": "Email *",
+    "emailPlaceholder": "you@company.com",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Company name",
+    "phoneFieldLabel": "Phone number",
+    "phonePlaceholder": "+84 ...",
+    "projectTypeLabel": "Type of project",
+    "projectTypePlaceholder": "e.g. an AI support chatbot",
+    "messageLabel": "Tell us what you need",
+    "messagePlaceholder": "Describe the problem you are solving...",
+    "submit": "Send request →",
+    "thanks": "Thank you! We will get back to you within 24 hours."
   },
   "footer": {
-    "contactTitle": "Contact",
-    "phone": "Zalo",
-    "email": "Email",
-    "offices": "Offices",
-    "officesList": [
-      "Hanoi: No. 26, Lane 364 Minh Khai Street, Vinh Tuy Ward, Hai Ba Trung District, Hanoi, Vietnam."
+    "tagline": "Advanced software and AI solutions, walking with Vietnamese businesses through digital transformation.",
+    "brandNote": "In-house retail brand: Chom Chom Studio (chomchom.com.vn) on TikTok Shop.",
+    "servicesTitle": "Services",
+    "servicesLinks": [
+      "Software development",
+      "AI/ML solutions",
+      "Cloud & DevOps",
+      "Data Analytics",
+      "E-commerce analytics"
     ],
-    "copyright": "All rights reserved."
+    "companyTitle": "Company",
+    "companyLinks": {
+      "overview": "About",
+      "team": "Team",
+      "projects": "Projects",
+      "certifications": "Certifications"
+    },
+    "contactTitle": "Contact",
+    "legal": "Privacy policy · Terms of use"
   }
 }

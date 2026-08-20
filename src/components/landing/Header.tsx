@@ -1,9 +1,20 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { LocaleSwitcher } from "./LocaleSwitcher";
+
+const NAV_ITEMS = [
+  { key: "overview", href: "#overview" },
+  { key: "services", href: "#services" },
+  { key: "competencies", href: "#competencies" },
+  { key: "projects", href: "#projects" },
+  { key: "team", href: "#team" },
+] as const;
 
 export function Header() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -30,15 +41,18 @@ export function Header() {
           />
         </a>
         <div className="nav-links" style={{ display: menuOpen ? "none" : undefined }}>
-          <a href="#overview">Giới thiệu</a>
-          <a href="#services">Dịch vụ</a>
-          <a href="#competencies">Năng lực</a>
-          <a href="#projects">Dự án</a>
-          <a href="#team">Đội ngũ</a>
+          {NAV_ITEMS.map((item) => (
+            <a key={item.key} href={item.href}>
+              {t(item.key)}
+            </a>
+          ))}
         </div>
-        <a href="#contact" className="nav-cta">
-          Liên hệ <span style={{ fontSize: "11px" }}>→</span>
-        </a>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <LocaleSwitcher />
+          <a href="#contact" className="nav-cta">
+            {t("contact")} <span style={{ fontSize: "11px" }}>→</span>
+          </a>
+        </div>
       </nav>
     </>
   );

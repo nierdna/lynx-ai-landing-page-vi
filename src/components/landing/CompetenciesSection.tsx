@@ -1,14 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
-const TABS = [
-  { id: "arch", label: "Kiến trúc" },
-  { id: "design", label: "Design" },
-  { id: "tech", label: "Công nghệ" },
-  { id: "infra", label: "Hạ tầng" },
-  { id: "ai", label: "Data & AI" },
-] as const;
+const TABS = [{ id: "arch" }, { id: "design" }, { id: "tech" }, { id: "infra" }, { id: "ai" }] as const;
 
 type TabId = (typeof TABS)[number]["id"];
 
@@ -60,6 +55,7 @@ const PANELS: Record<TabId, { color: string; label: string }[]> = {
 };
 
 export function CompetenciesSection() {
+  const t = useTranslations("competencies");
   const [activeTab, setActiveTab] = useState<TabId>("arch");
 
   return (
@@ -67,9 +63,9 @@ export function CompetenciesSection() {
       <div className="wrap">
         <div className="header-row fade-up" style={{ marginBottom: "36px" }}>
           <div className="left">
-            <span className="eyebrow">Năng lực cốt lõi</span>
-            <h2 style={{ marginTop: "12px", marginBottom: "14px" }}>Công nghệ &amp; Kiến trúc.</h2>
-            <p className="lede">Làm chủ stack công nghệ hiện đại — chọn đúng công cụ cho đúng bài toán, không chạy theo trào lưu.</p>
+            <span className="eyebrow">{t("eyebrow")}</span>
+            <h2 style={{ marginTop: "12px", marginBottom: "14px" }}>{t("title")}</h2>
+            <p className="lede">{t("lede")}</p>
           </div>
         </div>
 
@@ -84,7 +80,7 @@ export function CompetenciesSection() {
                 role="tab"
                 aria-selected={activeTab === tab.id}
               >
-                {tab.label}
+                {t(`tabs.${tab.id}`)}
               </button>
             ))}
           </div>

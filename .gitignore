@@ -5,3 +5,8 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
+# local tooling
+.claude/
+.DS_Store
+**/.DS_Store
+tsconfig.tsbuildinfo

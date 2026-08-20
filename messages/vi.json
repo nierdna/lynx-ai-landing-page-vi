@@ -1,11 +1,10 @@
 {
   "meta": {
-    "title": "AI quản lý, chăm sóc khách hàng, sales & marketing tự động",
-    "description": "Nền tảng AI cho doanh nghiệp: báo cáo thu chi & tồn kho, CSKH 24/7, sales Zalo tự động, content & video marketing — có video demo từng module."
+    "title": "Lynx AI Solution — Phần mềm, AI & Retail Analytics cho doanh nghiệp Việt",
+    "description": "Công ty công nghệ cung cấp giải pháp phần mềm, AI, Cloud, Data Analytics và phân tích dữ liệu thương mại điện tử (TikTok Shop, Shopee) cho doanh nghiệp Việt Nam."
   },
   "nav": {
-    "home": "Trang chủ",
-    "about": "Giới thiệu",
+    "overview": "Giới thiệu",
     "services": "Dịch vụ",
     "competencies": "Năng lực",
     "projects": "Dự án",
@@ -13,120 +12,449 @@
     "contact": "Liên hệ"
   },
   "hero": {
-    "kicker": "AI cho vận hành, bán hàng & marketing",
-    "headline": "Bộ giải pháp AI giúp bạn quản lý, chăm sóc khách hàng và tăng doanh thu",
-    "description": "Từ báo cáo thu chi — tồn kho đến inbox 24/7, sales Zalo và content viral: một hệ sinh thái AI đồng bộ, có video demo minh họa từng phân hệ.",
-    "cta": "Đăng ký tư vấn miễn phí",
-    "videoAriaLabel": "Video giới thiệu giải pháp AI",
-    "watchVideo": "Xem video",
-    "closeVideo": "Đóng video",
-    "imageAlt": "Giao diện và quy trình làm việc với AI trong doanh nghiệp"
-  },
-  "about": {
-    "title": "Về chúng tôi",
-    "body1": "Chúng tôi xây dựng các module AI chuyên sâu cho bán lẻ và dịch vụ: số liệu rõ ràng theo thời gian thực, khách hàng được phản hồi ngay cả ngoài giờ, và đội sales — marketing có công cụ tự động hóa thay vì làm thủ công.",
-    "body2": "Mỗi phân hệ đều có lộ trình triển khai cụ thể, tích hợp Zalo / Telegram / TikTok / Facebook theo nhu cầu, để bạn nhìn thấy giá trị sớm và mở rộng dần theo giai đoạn.",
-    "teamTitle": "Đội ngũ lãnh đạo",
-    "teamDescription": "4 thành viên nòng cốt phụ trách chiến lược, công nghệ, tài chính và tăng trưởng.",
-    "members": {
-      "ceo": {
-        "role": "CEO",
-        "name": "Tạ Duy Đạt",
-        "bio": "Định hướng chiến lược tổng thể và phát triển doanh nghiệp."
+    "badgeNew": "MỚI",
+    "eyebrow": "Đối tác chuyển đổi số · AI-first 2026",
+    "titleBefore": "Giải pháp ",
+    "titleAccent": "Phần mềm & AI",
+    "titleAfter": " cho doanh nghiệp Việt.",
+    "desc": "LYNX AI SOLUTION đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số — từ tư vấn chiến lược, thiết kế sản phẩm đến triển khai AI thực tế, đo được bằng kết quả kinh doanh.",
+    "ctaPrimary": "Bắt đầu dự án →",
+    "ctaSecondary": "Xem dự án tiêu biểu",
+    "trustTitle": "Tin tưởng bởi 30+ doanh nghiệp",
+    "trustSub": "Tài chính · Y tế · Bán lẻ · Logistics",
+    "kpiLabel": "DOANH THU AI",
+    "kpiValue": "2.4 tỷ",
+    "kpiTrend": "↑ 38% vs Q3",
+    "dashTitle": "LYNX · Dashboard",
+    "dashLive": "Live",
+    "rows": [
+      {
+        "label": "AI Solutions",
+        "sub": "12 dự án đang triển khai",
+        "val": "↗ 96%"
       },
-      "cco": {
-        "role": "CCO",
-        "name": "Nguyễn Cảnh Nguyên",
-        "bio": "Hoạch định chiến lược, quản lý hoạt động bán hàng và phát triển thị trường để tăng doanh thu."
+      {
+        "label": "Phần mềm doanh nghiệp",
+        "sub": "ERP · CRM · Workflow",
+        "val": "+24"
       },
-      "cto": {
-        "role": "CTO",
-        "name": "Lê Văn Mong",
-        "bio": "Phụ trách kiến trúc sản phẩm, AI và hạ tầng công nghệ."
+      {
+        "label": "Cloud & DevOps",
+        "sub": "Multi-cloud · CI/CD",
+        "val": "99.9%"
       },
-      "cmo": {
-        "role": "CMO",
-        "name": "Phan Hà Duy",
-        "bio": "Dẫn dắt marketing, thương hiệu và chiến lược tăng trưởng."
+      {
+        "label": "Data & Analytics",
+        "sub": "Pipeline · BI · Insight",
+        "val": "8 dự án"
       }
-    }
+    ],
+    "runningLabel": "DỰ ÁN ĐANG CHẠY",
+    "runningCount": "24",
+    "runningSub": "Trên 8 ngành",
+    "stats": [
+      {
+        "num": "30",
+        "label": "Dự án hoàn thành"
+      },
+      {
+        "num": "25",
+        "label": "Khách hàng hài lòng"
+      },
+      {
+        "num": "40",
+        "label": "Chuyên gia công nghệ"
+      },
+      {
+        "num": "5",
+        "label": "Năm kinh nghiệm"
+      }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Giới thiệu công ty",
+    "title": "Chúng tôi là LYNX AI SOLUTION.",
+    "lede": "Công ty Cổ phần LYNX AI SOLUTION là đơn vị công nghệ chuyên cung cấp giải pháp phần mềm và trí tuệ nhân tạo cho doanh nghiệp Việt Nam. Chúng tôi tin rằng AI nên là một công cụ thiết thực — giải quyết được bài toán cụ thể, đo được bằng ROI, không chỉ là khẩu hiệu.",
+    "ledeRetail": "Ngoài dịch vụ cho khách hàng, công ty còn trực tiếp sở hữu và vận hành thương hiệu bán lẻ Chôm Chôm Studio trên TikTok Shop — nơi chúng tôi tự chạy sản phẩm phân tích thương mại điện tử của mình trước khi đóng gói cho khách.",
+    "visionLabel": "Tầm nhìn",
+    "visionBody": "Trở thành đối tác AI hàng đầu cho doanh nghiệp Việt, đưa công nghệ tiên tiến đến gần hơn với mọi quy mô tổ chức.",
+    "missionLabel": "Sứ mệnh",
+    "missionBody": "Giúp doanh nghiệp tăng hiệu quả vận hành và tạo lợi thế cạnh tranh thông qua phần mềm tùy chỉnh và giải pháp AI thực tế.",
+    "valuesTitle": "Giá trị cốt lõi",
+    "values": [
+      "Khách hàng làm trung tâm",
+      "Chính trực & minh bạch",
+      "Đổi mới liên tục",
+      "Chất lượng cam kết",
+      "Hợp tác bền vững"
+    ],
+    "infoNameLabel": "Tên doanh nghiệp",
+    "infoNameValue": "CTCP LYNX AI SOLUTION",
+    "infoTaxLabel": "Mã số thuế",
+    "infoTaxValue": "0111115574",
+    "infoHqLabel": "Trụ sở",
+    "infoHqLine1": "Số 26, Ngõ 364 Đường Minh Khai,",
+    "infoHqLine2": "Phường Vĩnh Tuy, Hai Bà Trưng, Hà Nội",
+    "infoSizeLabel": "Quy mô",
+    "infoSizeValue": "40+ chuyên gia công nghệ",
+    "infoBrandLabel": "Thương hiệu bán lẻ tự vận hành",
+    "infoBrandValue": "Chôm Chôm Studio · TikTok Shop",
+    "infoTaxOfficeLabel": "Cơ quan thuế",
+    "infoTaxOfficeValue": "Thuế cơ sở 3 TP Hà Nội"
   },
   "services": {
-    "kicker": "Dịch vụ",
-    "headline": "Trợ lý AI cho vận hành và tăng trưởng",
-    "description": "Mỗi dịch vụ đi kèm video demo minh họa luồng sử dụng thực tế (video tạm dùng chung cho demo).",
+    "eyebrow": "Dịch vụ & Sản phẩm",
+    "title": "Giải pháp toàn diện cho doanh nghiệp.",
+    "lede": "Năm nhóm dịch vụ cốt lõi — bao quát từ tư vấn chiến lược, thiết kế sản phẩm đến triển khai và vận hành dài hạn.",
+    "link": "Xem tất cả dịch vụ →",
     "items": {
-      "report": {
-        "title": "AI Quản lý & Báo cáo",
-        "bullets": [
-          "Báo cáo thu/chi, doanh thu theo ngày/tháng",
-          "Theo dõi tồn kho, cảnh báo thiếu hàng",
-          "Báo cáo real-time qua Zalo / Telegram"
-        ],
-        "videoLabel": "Video demo AI Quản lý & Báo cáo"
+      "software": {
+        "title": "Phát triển phần mềm theo yêu cầu",
+        "desc": "Web application, hệ thống ERP/CRM, ứng dụng nội bộ — thiết kế và phát triển theo bài toán riêng của doanh nghiệp, đảm bảo tích hợp với hệ thống hiện có.",
+        "tags": [
+          "React · Next.js",
+          "Node.js · .NET",
+          "PostgreSQL"
+        ]
       },
-      "sales": {
-        "title": "AI Sales tự động",
-        "bullets": [
-          "Trả lời inbox khách hàng tự động 24/7",
-          "Tư vấn sản phẩm cá nhân hóa",
-          "Follow-up giỏ hàng và chốt đơn tự động"
-        ],
-        "videoLabel": "Video demo AI Sales tự động"
+      "ai": {
+        "title": "Giải pháp AI & Machine Learning",
+        "desc": "Triển khai AI thực tế: chatbot, OCR, computer vision, recommendation, dự báo — tích hợp LLM vào quy trình nghiệp vụ để tăng tự động hóa.",
+        "tags": [
+          "LLM Integration",
+          "Computer Vision",
+          "RAG"
+        ]
       },
-      "customerCare": {
-        "title": "AI CSKH tự động",
-        "bullets": [
-          "Trả lời inbox khách hàng tự động 24/7",
-          "Chăm sóc quan tâm khách hàng như người thật",
-          "Follow-up & chốt đơn tự động"
-        ],
-        "videoLabel": "Video demo AI Chăm sóc khách hàng"
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Tư vấn kiến trúc cloud, triển khai hạ tầng tự động, CI/CD pipeline, monitoring và security audit cho hệ thống production.",
+        "tags": [
+          "AWS · GCP · Azure",
+          "Kubernetes",
+          "Terraform"
+        ]
       },
-      "content": {
-        "title": "AI Content & Marketing",
-        "bullets": [
-          "Quét thị trường, phân tích đối thủ",
-          "Tìm bài viral trong ngành",
-          "Viết content bán hàng. Tạo video TikTok / Fb tự động"
-        ],
-        "videoLabel": "Video demo AI Content & Marketing"
+      "data": {
+        "title": "Data Engineering & Analytics",
+        "desc": "Xây dựng data pipeline, data warehouse, BI dashboard. Biến dữ liệu rời rạc thành báo cáo theo thời gian thực, hỗ trợ ra quyết định.",
+        "tags": [
+          "Airflow · Spark",
+          "Snowflake",
+          "Power BI · Looker"
+        ]
+      },
+      "ecommerce": {
+        "title": "Thương mại điện tử & Retail Analytics",
+        "desc": "Vận hành và tối ưu kênh bán hàng thương mại điện tử (TikTok Shop, Shopee) bằng dữ liệu: dashboard doanh thu — tồn kho — hiệu suất quảng cáo theo thời gian thực, báo cáo tự động hằng ngày, tính điểm hoà vốn cho từng mã hàng.",
+        "tags": [
+          "TikTok Business API",
+          "GMV Max",
+          "BI Dashboard"
+        ]
       }
     }
   },
-  "why": {
-    "title": "Tại sao chọn chúng tôi",
-    "points": [
-      "Một nền tảng nhiều module: quản lý số liệu, CSKH, sales và marketing liên thông thay vì rời rạc công cụ.",
-      "Kênh Việt Nam: Zalo, Telegram, TikTok, Facebook Reels được tính toán sẵn trong luồng triển khai.",
-      "Minh bạch trước khi mua: xem video demo từng phân hệ, hiểu rõ tính năng và mức độ tự động hóa.",
-      "Đồng hành sau bàn giao: tối ưu prompt, kịch bản và báo cáo theo thực tế vận hành của bạn."
+  "competencies": {
+    "eyebrow": "Năng lực cốt lõi",
+    "title": "Công nghệ & Kiến trúc.",
+    "lede": "Làm chủ stack công nghệ hiện đại — chọn đúng công cụ cho đúng bài toán, không chạy theo trào lưu.",
+    "tabs": {
+      "arch": "Kiến trúc",
+      "design": "Design",
+      "tech": "Công nghệ",
+      "infra": "Hạ tầng",
+      "ai": "Data & AI"
+    }
+  },
+  "process": {
+    "eyebrow": "Quy trình",
+    "title": "Từ ý tưởng đến sản phẩm.",
+    "lede": "Quy trình Agile chuẩn hóa, minh bạch ở mọi giai đoạn — đảm bảo chất lượng và đúng tiến độ.",
+    "steps": [
+      {
+        "title": "Thu thập yêu cầu",
+        "desc": "Phân tích nhu cầu, xác định phạm vi, mục tiêu kinh doanh"
+      },
+      {
+        "title": "Thiết kế",
+        "desc": "Wireframe, UI/UX, kiến trúc hệ thống và lập kế hoạch"
+      },
+      {
+        "title": "Phát triển",
+        "desc": "Sprint 2 tuần, daily standup, code review liên tục"
+      },
+      {
+        "title": "Kiểm thử",
+        "desc": "Unit · Integration · UAT · Performance · Security"
+      },
+      {
+        "title": "Triển khai",
+        "desc": "CI/CD pipeline, monitoring, hỗ trợ go-live và bảo trì"
+      }
+    ],
+    "qa": [
+      "Code Review tự động",
+      "Unit & Integration Testing",
+      "Security Scanning",
+      "Performance Monitoring"
+    ]
+  },
+  "projects": {
+    "eyebrow": "Dự án tiêu biểu",
+    "title": "Những gì chúng tôi đã làm.",
+    "lede": "Một vài dự án thực tế thể hiện năng lực triển khai end-to-end của đội ngũ — bao gồm cả sản phẩm chúng tôi tự vận hành cho chính mình.",
+    "link": "Yêu cầu portfolio đầy đủ →",
+    "inhouseBadge": "Sản phẩm nội bộ của Lynx",
+    "items": {
+      "chomchom": {
+        "title": "Chôm Chôm Studio — Dashboard TikTok Shop nội bộ",
+        "desc": "LYNX AI SOLUTION sở hữu và vận hành thương hiệu thời trang nữ Chôm Chôm Studio (chomchom.com.vn), bán trên TikTok Shop qua tài khoản quảng cáo của chính công ty. Chúng tôi xây dashboard báo cáo nội bộ đọc dữ liệu qua TikTok Business API: doanh thu và chi phí quảng cáo GMV Max hằng ngày, ROI theo từng chiến dịch và từng video, tồn kho theo SKU, số dư ví quảng cáo — và quản lý chính các chiến dịch GMV Max của tài khoản này.",
+        "tags": [
+          "TikTok Business API",
+          "GMV Max",
+          "BI Dashboard",
+          "Thương mại điện tử"
+        ],
+        "outcome": "Dữ liệu chỉ thuộc tài khoản của chính công ty · dùng nội bộ, không chia sẻ cho bên thứ ba",
+        "linkLabel": "chomchom.com.vn →",
+        "linkHref": "https://chomchom.com.vn",
+        "imageAlt": "Chôm Chôm Studio — thương hiệu bán lẻ trên TikTok Shop của LYNX AI SOLUTION"
+      },
+      "erp": {
+        "title": "Phần mềm quản lý doanh nghiệp",
+        "desc": "Nền tảng ERP đặt may theo đặc thù từng doanh nghiệp — quản lý nhân sự, tài chính, kho vận, quy trình nội bộ trên một hệ thống thống nhất.",
+        "tags": [
+          "ERP",
+          "Microservices",
+          "Cloud"
+        ],
+        "outcome": "Chuẩn hóa quy trình · tăng minh bạch vận hành",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Phần mềm quản lý doanh nghiệp ERP"
+      },
+      "crm": {
+        "title": "Hệ thống quản lý khách hàng (CRM)",
+        "desc": "CRM 360° tập trung dữ liệu khách hàng đa kênh, phân khúc tự động, theo dõi pipeline bán hàng và đo lường hiệu quả chiến dịch real-time.",
+        "tags": [
+          "CRM",
+          "Customer 360",
+          "Analytics"
+        ],
+        "outcome": "Tăng tỷ lệ chuyển đổi · giữ chân khách hàng",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Hệ thống quản lý khách hàng CRM"
+      },
+      "zalo": {
+        "title": "Quản lý Data Zalo Sale",
+        "desc": "Nền tảng đồng bộ và quản lý toàn bộ dữ liệu hội thoại Zalo OA — phân công sale, tự động nhắc lịch, tracking đơn hàng và đo lường KPI từng nhân viên.",
+        "tags": [
+          "Zalo OA API",
+          "Sales Pipeline",
+          "Realtime"
+        ],
+        "outcome": "Không bỏ sót lead · tối ưu tỉ lệ chốt đơn",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Quản lý Data Zalo Sale"
+      },
+      "assistant": {
+        "title": "Trợ lý ảo AI chăm sóc khách hàng",
+        "desc": "Trí tuệ nhân tạo thông minh đóng vai trợ lý ảo CSKH, huấn luyện riêng theo nghiệp vụ và tông giọng từng doanh nghiệp — deploy đa kênh Web, Zalo, Facebook.",
+        "tags": [
+          "LLM · RAG",
+          "LangChain",
+          "Multi-channel"
+        ],
+        "outcome": "Tự động xử lý phần lớn câu hỏi · giảm chi phí CSKH",
+        "linkLabel": "",
+        "linkHref": "",
+        "imageAlt": "Trợ lý ảo AI chăm sóc khách hàng"
+      }
+    }
+  },
+  "clients": {
+    "eyebrow": "Khách hàng & Đối tác",
+    "title": "Tin tưởng bởi các doanh nghiệp hàng đầu.",
+    "industriesTitle": "Lĩnh vực phục vụ",
+    "industries": [
+      "Tài chính · Ngân hàng",
+      "Y tế & Sức khỏe",
+      "Bán lẻ · Thương mại",
+      "Logistics",
+      "Giáo dục",
+      "Sản xuất"
+    ]
+  },
+  "team": {
+    "eyebrow": "Đội ngũ",
+    "title": "Con người tạo nên sự khác biệt.",
+    "lede": "Đội ngũ kỹ sư giàu kinh nghiệm, đam mê công nghệ và luôn lấy kết quả của khách hàng làm thước đo.",
+    "stats": [
+      {
+        "num": "40",
+        "plus": true,
+        "label": "Thành viên"
+      },
+      {
+        "num": "6",
+        "plus": true,
+        "label": "Năm kinh nghiệm TB"
+      },
+      {
+        "num": "15",
+        "plus": true,
+        "label": "Chứng chỉ quốc tế"
+      },
+      {
+        "num": "3",
+        "plus": false,
+        "label": "Quốc gia làm việc"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Software Engineers",
+        "desc": "Frontend · Backend · Fullstack"
+      },
+      {
+        "title": "AI / ML Engineers",
+        "desc": "ML · Deep Learning · LLM"
+      },
+      {
+        "title": "UI/UX Designers",
+        "desc": "Product Design · Research"
+      },
+      {
+        "title": "DevOps · Cloud",
+        "desc": "Infrastructure · CI/CD · Security"
+      },
+      {
+        "title": "Data Engineers",
+        "desc": "Pipeline · Analytics · BI"
+      },
+      {
+        "title": "QA Engineers",
+        "desc": "Manual · Automation · Performance"
+      }
+    ],
+    "leaderTitle": "Đội ngũ lãnh đạo",
+    "leaderLede": "4 thành viên nòng cốt phụ trách chiến lược, công nghệ, tài chính và tăng trưởng.",
+    "leaders": [
+      {
+        "role": "CEO",
+        "name": "Tạ Duy Đạt",
+        "desc": "Định hướng chiến lược tổng thể và phát triển doanh nghiệp."
+      },
+      {
+        "role": "CCO",
+        "name": "Nguyễn Cảnh Nguyên",
+        "desc": "Hoạch định chiến lược, quản lý hoạt động bán hàng và phát triển thị trường để tăng doanh thu."
+      },
+      {
+        "role": "CTO",
+        "name": "Lê Văn Mong",
+        "desc": "Phụ trách kiến trúc sản phẩm, AI và hạ tầng công nghệ."
+      },
+      {
+        "role": "CMO",
+        "name": "Phan Hà Duy",
+        "desc": "Dẫn dắt marketing, thương hiệu và chiến lược tăng trưởng."
+      }
+    ]
+  },
+  "advantages": {
+    "eyebrow": "Lợi thế cạnh tranh",
+    "title": "Tại sao chọn LYNX AI?",
+    "items": [
+      {
+        "title": "AI-first & thực dụng",
+        "desc": "Không phải mọi bài toán đều cần AI. Chúng tôi tư vấn thẳng thắn — chọn đúng giải pháp cho đúng nhu cầu, đo được bằng ROI."
+      },
+      {
+        "title": "Đội ngũ Senior-heavy",
+        "desc": "70% đội ngũ là Senior+ với 5+ năm kinh nghiệm. Bạn làm việc với người ra quyết định, không phải qua nhiều lớp trung gian."
+      },
+      {
+        "title": "Tuân thủ & bảo mật",
+        "desc": "Thiết kế theo chuẩn ISO 27001, GDPR-ready. Phù hợp cho tài chính, y tế và doanh nghiệp có yêu cầu compliance cao."
+      },
+      {
+        "title": "Đối tác dài hạn",
+        "desc": "85% khách hàng ký mới sau dự án đầu. Chúng tôi không chỉ build & bay — chúng tôi đồng hành để sản phẩm phát triển."
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Chứng nhận",
+    "title": "Tiêu chuẩn quốc tế.",
+    "items": [
+      {
+        "title": "ISO/IEC 27001",
+        "desc": "Information Security · 2024"
+      },
+      {
+        "title": "AWS Partner",
+        "desc": "Select Tier · 2025"
+      },
+      {
+        "title": "CMMI Level 3",
+        "desc": "Process Maturity · 2024"
+      }
     ]
   },
   "cta": {
-    "title": "Sẵn sàng để AI gánh phần vận hành và bán hàng?",
-    "description": "Nhắn Zalo để được tư vấn module phù hợp và xem thêm demo trong ~30 phút.",
-    "button": "Liên hệ ngay"
+    "title": "Sẵn sàng bắt đầu dự án?",
+    "desc": "Đặt lịch tư vấn miễn phí 30 phút — chúng tôi sẽ giúp bạn xác định bài toán và phác thảo giải pháp phù hợp.",
+    "primary": "Liên hệ tư vấn miễn phí →",
+    "secondary": "Gửi email ngay"
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Kết nối với LYNX AI.",
+    "lede": "Có dự án cần triển khai? Có câu hỏi về AI cho doanh nghiệp? Để lại thông tin — chúng tôi phản hồi trong 24h.",
+    "websiteLabel": "Website",
+    "emailLabel": "Email",
+    "phoneLabel": "Điện thoại",
+    "hqLabel": "Trụ sở",
+    "hqLine1": "Số 26, Ngõ 364 Đường Minh Khai,",
+    "hqLine2": "Phường Vĩnh Tuy, Hai Bà Trưng, Hà Nội",
+    "nameLabel": "Họ và tên *",
+    "namePlaceholder": "Nguyễn Văn A",
+    "emailFieldLabel": "Email *",
+    "emailPlaceholder": "ban@congty.vn",
+    "companyLabel": "Công ty",
+    "companyPlaceholder": "Tên doanh nghiệp",
+    "phoneFieldLabel": "Số điện thoại",
+    "phonePlaceholder": "+84 ...",
+    "projectTypeLabel": "Loại dự án quan tâm",
+    "projectTypePlaceholder": "VD: Triển khai chatbot AI cho CSKH",
+    "messageLabel": "Mô tả yêu cầu",
+    "messagePlaceholder": "Hãy chia sẻ bài toán của bạn...",
+    "submit": "Gửi yêu cầu →",
+    "thanks": "Cảm ơn anh/chị! Chúng tôi sẽ liên hệ lại trong 24h."
   },
   "footer": {
-    "whoWeAre": "Chúng tôi là ai?",
-    "whoLinks": ["Tầm nhìn, sứ mệnh", "Giá trị cốt lõi", "Ý nghĩa tên Lynx"],
-    "whatWeDo": "Chúng tôi làm gì?",
-    "whatLinks": [
-      "Creative & Engineering",
-      "Talent Platform",
-      "Dự án của chúng tôi"
+    "tagline": "Giải pháp phần mềm và AI tiên tiến, đồng hành cùng doanh nghiệp Việt trên hành trình chuyển đổi số.",
+    "brandNote": "Thương hiệu bán lẻ tự vận hành: Chôm Chôm Studio (chomchom.com.vn) trên TikTok Shop.",
+    "servicesTitle": "Dịch vụ",
+    "servicesLinks": [
+      "Phát triển phần mềm",
+      "Giải pháp AI/ML",
+      "Cloud & DevOps",
+      "Data Analytics",
+      "Thương mại điện tử"
     ],
-    "newsUpdate": "Cập nhật tin tức",
-    "newsLinks": ["Văn hóa - Sự kiện", "Tuyển dụng", "Chính sách phúc lợi"],
+    "companyTitle": "Công ty",
+    "companyLinks": {
+      "overview": "Giới thiệu",
+      "team": "Đội ngũ",
+      "projects": "Dự án",
+      "certifications": "Chứng nhận"
+    },
     "contactTitle": "Liên hệ",
-    "phone": "Zalo",
-    "email": "Email",
-    "offices": "Văn phòng",
-    "officesList": [
-      "Hà Nội: Số 26 Ngõ 364 Đường Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam."
-    ],
-    "copyright": "Bản quyền thuộc về Lynx Solution.",
-    "joinUs": "Join us"
+    "legal": "Chính sách bảo mật · Điều khoản sử dụng"
   }
 }

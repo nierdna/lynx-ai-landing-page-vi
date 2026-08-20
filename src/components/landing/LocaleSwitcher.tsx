@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import {useLocale} from 'next-intl';
-import {usePathname, useRouter} from '@/i18n/navigation';
-import {Button} from './Button';
+import { useLocale } from "next-intl";
+import { usePathname, useRouter } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 
 export function LocaleSwitcher() {
   const locale = useLocale();
@@ -10,24 +10,18 @@ export function LocaleSwitcher() {
   const pathname = usePathname();
 
   return (
-    <div className="flex items-center gap-1 rounded-full border border-zinc-200 bg-white p-1">
-      <Button
-        type="button"
-        variant={locale === 'vi' ? 'primary' : 'ghost'}
-        className="h-9 px-3 text-xs"
-        onClick={() => router.replace(pathname, {locale: 'vi'})}
-      >
-        VI
-      </Button>
-      <Button
-        type="button"
-        variant={locale === 'en' ? 'primary' : 'ghost'}
-        className="h-9 px-3 text-xs"
-        onClick={() => router.replace(pathname, {locale: 'en'})}
-      >
-        EN
-      </Button>
+    <div className="locale-switch" role="group" aria-label="Language">
+      {routing.locales.map((code) => (
+        <button
+          key={code}
+          type="button"
+          className={`locale-btn${locale === code ? " active" : ""}`}
+          aria-current={locale === code ? "true" : undefined}
+          onClick={() => router.replace(pathname, { locale: code })}
+        >
+          {code.toUpperCase()}
+        </button>
+      ))}
     </div>
   );
 }
-
